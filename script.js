@@ -53,7 +53,6 @@ var x = setInterval(
 
  }, 1000);
  
-
  alert("💗 💗 💗Mahal na Mahal Ka Namin ni Mavi!💗 💗 💗");
 
 
