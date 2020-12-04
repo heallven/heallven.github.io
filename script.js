@@ -53,10 +53,6 @@ var x = setInterval(
 
  }, 1000);
  
- animation()
-swal{(
-
-)};
 
  alert("💗 💗 💗Mahal na Mahal Ka Namin ni Mavi!💗 💗 💗");
 
