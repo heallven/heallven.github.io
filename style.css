@@ -1,0 +1,154 @@
+#iloveyou{
+font-weight: bold;
+text-align: center;
+font-size: 25px;
+color: gold;
+}
+#promise{
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+color: silver;
+text-shadow:0 2px 17px black;
+}
+strong{
+font-size: 50px;
+}
+marquee{
+font-weight: bold;
+font-family:'Itim', cursive;
+text-align: center;
+font-size: 30px;
+color: red;
+background-color:gold;
+text-align: center;
+}
+#new{
+display: table-cell;
+animation: animate 2s linear infinite;
+text-align: center;
+font-size: 50px;
+font-weight: bold;
+ color: red;
+  justify-content: center;
+}
+ span
+{
+color: red;
+  animation: animate 3.75s linear infinite;
+}
+strong span:nth-child(1)
+{
+  animation-delay: 0s;
+}
+strong span:nth-child(2)
+{
+  animation-delay: 0.25s;
+}
+strong span:nth-child(3)
+{
+  animation-delay: 0.5s;
+}
+strong span:nth-child(4)
+{
+  animation-delay: 0.75s;
+}
+strong span:nth-child(5)
+{
+  animation-delay: 1s;
+}
+strong span:nth-child(6)
+{
+  animation-delay: 1.25s;
+}
+strong span:nth-child(7)
+{
+  animation-delay: 1.5s;
+}
+strong span:nth-child(8)
+{
+  animation-delay: 1.75s;
+}
+strong span:nth-child(9)
+{
+  animation-delay: 2s;
+}
+strong span:nth-child(10)
+{
+  animation-delay: 2.25s;
+}
+strong span:nth-child(11)
+{
+  animation-delay: 2.50s;
+}
+strong span:nth-child(12)
+{
+  animation-delay: 2.75s;
+}
+strong span:nth-child(13)
+{
+  animation-delay: 3s;
+}
+strong span:nth-child(14)
+{
+  animation-delay: 3.25s;
+}
+strong span:nth-child(15)
+{
+  animation-delay: 3.50s;
+}
+strong span:nth-child(16)
+{
+  animation-delay: 3.75s;
+}
+
+@keyframes animate 
+{
+  0%,100%
+  {
+    color: #ffff33;
+    filter: blur(2px);
+    text-shadow: 0 0 10px yellow,
+          0 0 20px blue,
+          0 0 40px red,
+          0 0 80px green,
+          0 0 120px orange,
+          0 0 200px pink,
+          0 0 300px violet;
+  }
+  5%,95%
+  {
+    color: red;
+    filter: blur(0px);
+    text-shadow: none;
+  }
+}
+
+.sc{
+font-family: 'lobster', cursive;
+font-size: 25px;
+color: red;
+margin: 0;
+text-align: center;
+text-shadow: 5px 0 10px yellow;
+ }
+
+body{
+background:url("https://i.pinimg.com/originals/37/18/c0/3718c0307e8e0862728a313b7f008d37.jpg");
+background: ;
+position: absolute;
+z-index: -1;
+}
+ 
+
+canvas{
+    background: transparent;
+    width: 100;
+    height: 100;
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+}
