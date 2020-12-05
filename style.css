@@ -198,7 +198,7 @@ canvas{background: transparent;
 iframe{
 z-index: 5;
 position:absolute;
-right: 200px;
+item-position: center;
 justify-content: center;
 
 
