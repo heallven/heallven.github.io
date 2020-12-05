@@ -153,3 +153,9 @@ canvas{background: transparent;
     top: 0;
     left: 0;
     z-index: 1;}
+iframe{
+z-index: 2;
+margin:auto;
+height:auto;
+width:auto;
+}
