@@ -1,3 +1,8 @@
+html { background: url("https://lh3.googleusercontent.com/pw/ACtC-3eLbgzek5HPfizItXI7uQLlWwkDk1BO09dLxMb6h3AJHizRF7jsD79bqYNf3TZB-M_rxKeZ5YJ4ws6ZBfMKaj7LUFPvp3lkxZ3qHYc-txm2r3Lls7_I_ktrg_7T_2rh6O94LuSeFikNjFxc0cFhWE42=w720-h910-no?authuser=0") no-repeat center center fixed; -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+background-size: cover;
+}
 #iloveyou{
 font-weight: bold;
 text-align: center;
@@ -134,21 +139,22 @@ text-shadow: 5px 0 10px yellow;
  }
 
 body{
-background:url("https://i.pinimg.com/originals/37/18/c0/3718c0307e8e0862728a313b7f008d37.jpg");
-background: ;
-position: absolute;
-z-index: -1;
+height: 100%;
+width: 100%;
 }
  
 
-canvas{
-    background: transparent;
-    width: 100;
-    height: 100;
-    padding: 0;
-    margin: auto;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: 3;
+canvas{background:cover;
+    webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+background-size: cover;
+margin:0;
+ padding:0;
+width:100%;
+height:100%;
+display:block;
+white-space:0;
+position: static;
+z-index:1;
 }
