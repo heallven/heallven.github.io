@@ -155,7 +155,7 @@ canvas{background: transparent;
     z-index: 1;}
 iframe{
 z-index: 2;
-margin:10px;
-height:300%;
-width:300%;
+margin:auto;
+height:90%;
+width:90%;
 }
