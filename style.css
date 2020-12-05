@@ -158,6 +158,7 @@ canvas{background: transparent;
 
 .box
 {
+  item-position: center;
   position: relative;
   width: 30%;
   height: 30%;
