@@ -154,6 +154,7 @@ canvas{background: transparent;
     left: 0;
     z-index: 1;}
 iframe{
-z-index: 2;
+z-index: 5;
+position:absolute;
 
 }
