@@ -1,7 +1,9 @@
-html { background: url("https://lh3.googleusercontent.com/pw/ACtC-3eLbgzek5HPfizItXI7uQLlWwkDk1BO09dLxMb6h3AJHizRF7jsD79bqYNf3TZB-M_rxKeZ5YJ4ws6ZBfMKaj7LUFPvp3lkxZ3qHYc-txm2r3Lls7_I_ktrg_7T_2rh6O94LuSeFikNjFxc0cFhWE42=w720-h910-no?authuser=0") no-repeat center center fixed; -webkit-background-size: cover;
+
+html { background: url("https://lh3.googleusercontent.com/pw/ACtC-3ffnep3YUMdOuFIr0w6tKJQD9WG9vuc2KGOfpy6-qKw7LBsE_UF3rzPunl2we2M0Nj_E3KGLkmZlB-ctXvzCDfUT8YJogxG9FE8A4gzDUvnr3HlrVOchKHn6YEZcZCUKhonpBJh2w0OvLX2O_f-Iq5m=w720-h960-no?authuser=0") no-repeat center center fixed; -webkit-background-size: cover;
  -moz-background-size: cover;
   -o-background-size: cover;
 background-size: cover;
+position: absolute;
 }
 #iloveyou{
 font-weight: bold;
@@ -23,7 +25,7 @@ marquee{
 font-weight: bold;
 font-family:'Itim', cursive;
 text-align: center;
-font-size: 30px;
+font-size: 50px;
 color: red;
 background-color:gold;
 text-align: center;
@@ -32,7 +34,7 @@ text-align: center;
 display: table-cell;
 animation: animate 2s linear infinite;
 text-align: center;
-font-size: 50px;
+font-size: 90px;
 font-weight: bold;
  color: red;
   justify-content: center;
@@ -131,17 +133,16 @@ strong span:nth-child(16)
 
 .sc{
 font-family: 'lobster', cursive;
-font-size: 25px;
+font-size: 50px;
 color: red;
 margin: 0;
 text-align: center;
 text-shadow: 5px 0 10px yellow;
+font-weight: bold;
+
  }
 
-body{
-height: 100%;
-width: 100%;
-}
+
  
 
 canvas{background: transparent;
@@ -153,6 +154,45 @@ canvas{background: transparent;
     top: 0;
     left: 0;
     z-index: 1;}
+   
+
+.box
+{
+  position: relative;
+  width: 30%;
+  height: 30%;
+  transform-style: preserve-3d;
+  animation: infinite-spinning 30s linear infinite;
+  display:;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background: transparent;}
+
+@keyframes infinite-spinning { from { transform: rotatey(0deg); } to { transform: rotatey(360deg); }}
+    
+
+.box span
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent,#0004);
+}
+.box span img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover; 
+}
 iframe{
 z-index: 5;
 position:absolute;
