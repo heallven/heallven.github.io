@@ -198,8 +198,6 @@ canvas{background: transparent;
 iframe{
 z-index: 5;
 position:absolute;
-margin:auto;
-padding:auto;
 item-position: center;
 justify-content: center;
 
