@@ -159,7 +159,6 @@ canvas{background: transparent;
 .box
 {
   position: relative;
-  left: 100px;
   width: 30%;
   height: 30%;
   transform-style: preserve-3d;
