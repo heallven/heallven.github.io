@@ -156,6 +156,6 @@ canvas{background: transparent;
 iframe{
 z-index: 2;
 margin:10px;
-height:50%;
-width:50%;
+height:300%;
+width:300%;
 }
