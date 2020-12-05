@@ -155,5 +155,9 @@ canvas{background: transparent;
     z-index: 1;}
 iframe{
 z-index: 5;
+display:fixed;
+position:absolute;
+margin:auto;
+padding:auto:
 
 }
