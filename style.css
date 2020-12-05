@@ -156,8 +156,10 @@ canvas{background: transparent;
 iframe{
 z-index: 5;
 position:absolute;
+right: 170px;
 margin:auto;
 padding:auto:
 justify-content: center;
+
 
 }
