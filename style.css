@@ -1,4 +1,3 @@
-
 html { background: url("https://lh3.googleusercontent.com/pw/ACtC-3ffnep3YUMdOuFIr0w6tKJQD9WG9vuc2KGOfpy6-qKw7LBsE_UF3rzPunl2we2M0Nj_E3KGLkmZlB-ctXvzCDfUT8YJogxG9FE8A4gzDUvnr3HlrVOchKHn6YEZcZCUKhonpBJh2w0OvLX2O_f-Iq5m=w720-h960-no?authuser=0") no-repeat center center fixed; -webkit-background-size: cover;
  -moz-background-size: cover;
   -o-background-size: cover;
@@ -159,6 +158,7 @@ canvas{background: transparent;
 .box
 {
   position: relative;
+  right: 100px;
   width: 30%;
   height: 30%;
   transform-style: preserve-3d;
@@ -169,6 +169,7 @@ canvas{background: transparent;
   min-height: 30vh;
   background: transparent;}
 
+
 @keyframes infinite-spinning { from { transform: rotatey(0deg); } to { transform: rotatey(360deg); }}
     
 
@@ -176,6 +177,9 @@ canvas{background: transparent;
 { 
   justify:center
   position: absolute;
+  right: 200px
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   transform-origin: center;
