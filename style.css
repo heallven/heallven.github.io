@@ -161,7 +161,7 @@ canvas{background: transparent;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;}
+    z-index: 1;}
    
 
 .box
@@ -210,8 +210,14 @@ position:relative;
 item-position: center;
 height: 100%;
 width: 100%;
-
 }
+li{
+z-index: 7;
+}
+ul{
+z-index: 8;
+}
+
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
