@@ -244,6 +244,7 @@ flex-direction: row;
 nav { display:inline-block;
  text-align: center;
 z-index:5;
+flex-diretion: row;
   }
  nav ul { margin: 0; padding:0; list-style: none; 
 }
