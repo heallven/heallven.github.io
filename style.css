@@ -218,13 +218,14 @@ width: 100%;
 }
 li{
 z-index: 7;
-height: 20px;
-width: 80px;
+height: 40px;
+width: 140px;
+flex-direction: row;
 }
 ul{
 z-index: 8;
-height: 20px;
-width: 80px;
+height: 40px;
+width: 140px;
 flex-direction: row;
 }
 
