@@ -224,6 +224,7 @@ ul{
 z-index: 8;
 height: 20px;
 width: 80px;
+flex-direction: row;
 }
 
 @media screen and (max-width: 600px) {
@@ -274,7 +275,7 @@ body { margin:0px; padding:0px; }
 
 /* main */
 header {
-    height: 360px;
+    height: 420px;
     z-index: 10;
 }
 .header-banner {
