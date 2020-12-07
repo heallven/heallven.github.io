@@ -287,7 +287,6 @@ header {
 .header-banner {
     background-color: #333;
     background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3es5hNZh_SWfZi94qhMBp47HSRmNqBMeASiov2RacBtZ9k5pyPvZkrBLDu7gAkueoI2ORG-MkQO3WYdpCEQfq66OYfjm06bcWiCrhG8zFoZxuYUfk8qg0VVOhM6KRiNn6nFKPGHHEywC86asbWjN54w=w720-h960-no?authuser=0"); 
-  -o-background-size: cover;
 background-size: cover;
 position: absolute;
     width: 100%;
