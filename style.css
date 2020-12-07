@@ -1,5 +1,6 @@
 
-html { background: url("https://lh3.googleusercontent.com/pw/ACtC-3ffnep3YUMdOuFIr0w6tKJQD9WG9vuc2KGOfpy6-qKw7LBsE_UF3rzPunl2we2M0Nj_E3KGLkmZlB-ctXvzCDfUT8YJogxG9FE8A4gzDUvnr3HlrVOchKHn6YEZcZCUKhonpBJh2w0OvLX2O_f-Iq5m=w720-h960-no?authuser=0") no-repeat center center fixed; -webkit-background-size: cover;
+html { background: url("https://lh3.googleusercontent.com/pw/ACtC-3ffnep3YUMdOuFIr0w6tKJQD9WG9vuc2KGOfpy6-qKw7LBsE_UF3rzPunl2we2M0Nj_E3KGLkmZlB-ctXvzCDfUT8YJogxG9FE8A4gzDUvnr3HlrVOchKHn6YEZcZCUKhonpBJh2w0OvLX2O_f-Iq5m=w720-h960-no?authuser=0") no-repeat center center fixed; 
+-webkit-background-size: cover;
  -moz-background-size: cover;
   -o-background-size: cover;
 background-size: cover;
@@ -281,10 +282,12 @@ header {
 }
 .header-banner {
     background-color: #333;
-    background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3es5hNZh_SWfZi94qhMBp47HSRmNqBMeASiov2RacBtZ9k5pyPvZkrBLDu7gAkueoI2ORG-MkQO3WYdpCEQfq66OYfjm06bcWiCrhG8zFoZxuYUfk8qg0VVOhM6KRiNn6nFKPGHHEywC86asbWjN54w=w720-h960-no?authuser=0");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3es5hNZh_SWfZi94qhMBp47HSRmNqBMeASiov2RacBtZ9k5pyPvZkrBLDu7gAkueoI2ORG-MkQO3WYdpCEQfq66OYfjm06bcWiCrhG8zFoZxuYUfk8qg0VVOhM6KRiNn6nFKPGHHEywC86asbWjN54w=w720-h960-no?authuser=0")no-repeat center center fixed; 
+-webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+background-size: cover;
+position: absolute;
     width: 100%;
     height: 100%;
 }
