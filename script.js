@@ -1,19 +1,5 @@
 
-function init(){
-    const out=document.getElementById("output");
-    const chars=['\\','|','/','—'];
-    let index=0;
-    let count=0
-    function animate(){
-       out.innerHTML=(" <3 ").repeat((count/10)%10)+chars[index];
-       index++;
-       count++;
-       count%=100;
-       index%=4;
-       setTimeout(animate,100);
-    }
-    setTimeout(animate,100);
-}
+
  
 
 var audio = new Audio(
