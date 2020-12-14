@@ -1,48 +1,66 @@
 <!doctype html>
 <html>
 <head>
- <title></title>
+ <title>ILoveYou Maan</title>
  <link rel="stylesheet" href="style.css">
- <style>
 
+<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+   $(window).scroll(function() {
+ if ($(window).scrollTop() >=
+  300) {
+  $('nav').addClass(
+   'fixed-header');
+  $('nav div').addClass(
+   'visible-title');
+ } else {
+  $('nav').removeClass(
+   'fixed-header');
+  $('nav div').removeClass(
+   'visible-title');
+  
  }
- 
- <meta name="viewport" content="width=device-width, initial-scale=1">
- </style>
- <script src="script.js"></script>
+}); 
+   </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<header class="header-banner">
-<nav> <ul class="nav"> 
-<li><a href="#">About</a></li> 
-<li><a href="#">Portfolio</a> <ul> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> </ul> </li> 
-<li><a href="#">Resume</a> <ul> 
-<li><a href="#">item a lonng submenu</a></li> 
-<li><a href="#">item</a> <ul> 
-<li><a href="#">Ray</a></li> 
-<li><a href="#">Veronica</a></li> 
-<li><a href="#">Bushy</a></li> 
-<li><a href="#">Havoc</a></li> </ul> </li> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> </ul> </li> 
-<li><a href="#">Download</a></li> 
-<li><a href="#">Rants</a> <ul> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> 
-<li><a href="#">item</a></li> </ul> </li> 
-<li><a href="#">Contact</a></li> </ul> </nav>
-</header>    
-</head>
-<body>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>  </center>
+    <div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;">Loading...</div>
+    <audio id="au" src="https://dl.dropbox.com/s/xp3zprzv97jpwlr/Sweetest_Birthday_Song_Ever_256k_Music.mp3" type="audio/mpeg" preload="auto"></audio> 
 
-<div class="al">
-<center>
-<div id="new"><strong><span>H</span><span>a</span><span>p</span>p<span>y </span><span>A</span><span>n</span><span>i</span><span>v</span><span>e</span><span>r</span><span>s</span><span>a</span><span>r</span><span>y</span><span>!</span></center></strong></div>
+
+    <header>
+    <div class="header-banner">
+        <h1>For My Beautiful<br> Wife</h1><br>  
+ <center> <div id="new1"class="heart"> <img src="https://lh3.googleusercontent.com/pw/ACtC-3diGQSowU5-8oBuLtqUdSUuj1_uWOVLLgd0tNyn0GVD5jfR6d-eeabbCJiXfCnU0Bf8-_ZzcBBMenxeXcS9aQkCD6A2JvO_r_dUtwrbVXJAvUpkPV-cRsJcbHNEsTmOvDc3kUg7GrCts0Zang6UvU3T=w720-h960-no?authuser=0" class="heart-img" onclick="audio.play()"> </div></center>            
+      </div>
+    <div class="clear"></div>
+    <nav>
+        <div class="site-title"> Maan</div>
+        <ul>            <li><a href="https://heallven01.wordpress.com">Home</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/contact">Contact</a></li>
+        <ul>
+    </nav>
+</header>
+   
+</head>
+
+<body onload="init();">
+<h3>Loading</h3>
+<div id="output" ></div>     
+
+<section class="content">
+    <article>
+      
+<audio id="au" src="https://dl.dropbox.com/s/xp3zprzv97jpwlr/Sweetest_Birthday_Song_Ever_256k_Music.mp3" type="audio/mpeg" preload="auto"></audio> 
+       <center>
+         <br>  
+                <br>     
+           <br>
+       
+<div id="new"><strong><span>H</span><span>a</span><span>p</span><span>p</span><span>y </span><span>A</span><span>n</span><span>i</span><span>v</span><span>e</span><span>r</span><span>s</span><span>a</span><span>r</span><span>y</span><span>!</span></center></strong></div>
 <div id="iloveyou"></div><br>
 <marquee id="mark"> 💖 💖 💖ILoveYou Always Bhie My Infinity And Clarity 💖 💖 💖<br>💌 💌 💌Asawa kong Maganda at Mabait ILoveYou💌 💌 💌</marquee>
 <div id="promise"></div></div> 
@@ -56,12 +74,18 @@
    <span style="--i:6;"> <img src="https://lh3.googleusercontent.com/pw/ACtC-3cCL3NfO-QeO76EPR72zgdz5_P9uUiDxYCcifGiuRfKAmE2eac8IxzYE4p28o22SKzZyfVTaLcRCNfVmzpf-OIS5V6aPyZcJ5Y0JuLp9KEkLs2jPObkl1SpeUhrRR1GCafJzFVAKwZiG0zjWOV6PI_L=w720-h960-no?authuser=0"> </span> 
    <span style="--i:7;"> <img src="https://lh3.googleusercontent.com/pw/ACtC-3czeKoHViOdSgT_NcNq4yL2dJsfTC27r7PIhRxrAkgeI6kVEEVr9B2IGx9Xe4keeneTKp57cEwWV6lbx3DRUPAI7uC9GGSKzWB46Cn--xDEFBV9l8AZEM-DQyiSuNHlOxdjeHrEC1D0DjFQd8ZvkMzs=w720-h540-no?authuser=0"> </span> 
    <span style="--i:8;"> <img src="https://lh3.googleusercontent.com/pw/ACtC-3eLbgzek5HPfizItXI7uQLlWwkDk1BO09dLxMb6h3AJHizRF7jsD79bqYNf3TZB-M_rxKeZ5YJ4ws6ZBfMKaj7LUFPvp3lkxZ3qHYc-txm2r3Lls7_I_ktrg_7T_2rh6O94LuSeFikNjFxc0cFhWE42=w720-h910-no?authuser=0"> </span> </div>
-   </center>
-<div class="sc"> <p id="a">You Will Always Bhie My Infinity And Clarity<p id="c">I Hope And Wishing For Our Love To be More True And Stronger As we Grow Old </p><p id="f">We Can Make All Our Dreams And Wishes Come True Together </p></div>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/h_iu667eOtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<canvas></canvas>
+    
+    <div class="sc"> <p id="a">You Will Always Bhie My Infinity And Clarity<p id="c">I Hope And Wishing For Our Love To be More True And Stronger As we Grow Old </p><p id="f">We Can Make All Our Dreams And Wishes Come True Together </p></div>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/h_iu667eOtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted--media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 <script>Swal.fire('💗 💗 💗Mahal na Mahal Ka Namin ni Mavi!💗 💗 💗')</script>
-<script src="script.js"></script> </body>
-<footer>
-</footer>
+    </article>
+        
+    <aside id="side">
+        <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/81580243_10215149599153083_1266816692902690816_o.jpg?_nc_cat=104&ccb=2&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=Axj6gnZLHJMAX-MqnWx&_nc_ht=scontent.fmnl4-1.fna&tp=14&oh=9fe8e92bf734511366b0140d35f8242b&oe=5FF63489s://placehold.it/144x150">
+        <img src="http://placehold.it/144x150">
+    </aside>
+</section> 
+    <script src="script.js"></script>
+</body>
 </html>
