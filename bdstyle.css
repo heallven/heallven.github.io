@@ -14,7 +14,7 @@
   position: absolute;
   left: 20px;
   top: 10px;
-  background: purple;
+  background: none;
   color:   red;
   height: 45px;
   width: 45px;
@@ -47,7 +47,7 @@
 }
 #sidebar{
   position: fixed;
-  background: #404040;
+  background: pink;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -67,7 +67,7 @@
   font-size: 25px;
   font-weight: 600;
   color: #f2f2f2;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid chocolate ;
 }
 #sidebar .list-items{
   position: relative;
