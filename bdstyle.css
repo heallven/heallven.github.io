@@ -537,13 +537,17 @@ z-index: -4;}
       transform:translate(0, -1000%) rotate(45deg); //Big hearts move faster
    }
 }
-
+audio{item-position:center;
+position:absolute;
+top: 1700px;
+opacity(1%)
+}
 
 canvas{
     background: transparent;
       width: 100%;
       height: 100%;
-      z-index: 99999;
+      z-index: 3;
     }
 
 
@@ -554,14 +558,14 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
-  width: 30%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
   display:;
   justify-content: center;
   align-items: center;
-  min-height: 30vh;
+  min-height: 100%;
   background: transparent;}
   
 
