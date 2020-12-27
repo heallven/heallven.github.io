@@ -330,7 +330,7 @@ font-size: 30px;
 z-index: -1;
 position: absolute;
 top: 895px;
-left: 260px;
+left: 270px;
 item-position:center;
 
 }
@@ -416,4 +416,24 @@ canvas{
    height: 100%;
    object-fit: cover;
    
+}
+
+
+.icon1{
+font-size: 100px;
+}
+
+.icon2{
+font-size: 100px;
+}
+
+.icon3{
+font-size: 100px;
+}
+.icon4{
+font-size: 100px;
+}
+.icons{
+font-size:100px;
+
 }
