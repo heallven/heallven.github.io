@@ -378,7 +378,6 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
-  left:120px
   width: 30%;
   height: 30%;
   transform-style: preserve-3d;
@@ -402,7 +401,7 @@ canvas{
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px);
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(210px);
   -webkit-box-reflect: below 0px linear-gradient(transparent, transparent,#0004);
 }
 .box span img
