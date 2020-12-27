@@ -33,7 +33,7 @@
 .wrapper .menu-btn i{
   position: fixed;
   transform: ;
-  font-size: 23px;
+  font-size: 60px;
   transition: all 0.3s ease;
 }
 .wrapper .menu-btn i.fa-time{
@@ -63,10 +63,10 @@
   left: 0;
 }
 #sidebar .title{
-  line-height: 65px;
+  line-height: 100px;
   text-align: center;
   background: #F433FF ;
-  font-size: 25px;
+  font-size: 70px;
   font-weight: 600;
   color: White ;
   border-bottom: 5px solid chocolate;
@@ -81,7 +81,7 @@
 }
 #sidebar .list-items li{
   padding-left: 40px;
-  line-height: 50px;
+  line-height: 100px;
   border-top: 1px solid rgba(255,255,255,0.1);
   border-bottom: 1px solid chocolate ;
   transition: all 0.3s ease;
@@ -97,7 +97,7 @@
 #sidebar .list-items li a{
   color: chocolate;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 50px;
   font-weight: 500;
   height: 100%;
   width: 100%;
@@ -108,21 +108,21 @@
 }
 #sidebar .list-items .icons{
   width: 100%;
-  height: 40px;
+  height: 100px;
   text-align: center;
   position: absolute;
   bottom: 100px;
-  line-height: 40px;
+  line-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#sidebar .list-items .icons a{
+#sidebar .list-items .icons 
   height: 100%;
   width: 100%;
   display: block;
   margin: 0 20px;
-  font-size: 18px;
+  font-size: 60px;
   color: gold;
   background: chocolate;
   border-radius: 5px;
@@ -145,12 +145,12 @@ top: 430px;
 }
 
 #maan{
-font-size: 50px;
+font-size: 80px;
 margin: 0;
 
 }
 #happy{
-font-size: 30px;
+font-size: 60px;
 margin: 0;
 
 }
@@ -173,8 +173,8 @@ margin: 0;
   top: 10px;
   background: ;
   color: gold;
-  height: 45px;
-  width: 45px;
+  height: 100px;
+  width: 100px;
   z-index: 9999;
   border: ;
   border-radius: ;  
