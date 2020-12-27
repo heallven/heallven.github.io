@@ -10,6 +10,9 @@
   width: 300px;
   position: relative;
 }
+.icon1, icon3 {
+font-size: 100px;
+}
 .wrapper .menu-btn{
   position: absolute;
   left: 20px;
