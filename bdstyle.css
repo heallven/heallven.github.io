@@ -377,7 +377,7 @@ canvas{
   display:;
   justify-content: center;
   align-items: center;
-  min-height: 30vh;
+  min-height: 100%;
   background: transparent;}
   
 
