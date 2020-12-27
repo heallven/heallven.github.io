@@ -370,7 +370,7 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
-  width: 70%;
+  width: 60%;
   height: 50%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
@@ -389,7 +389,7 @@ canvas{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 300px;
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
