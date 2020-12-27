@@ -160,8 +160,9 @@ margin: 0;
 .cake { 
 position: absolute;
 top:330px;
-width: 250px; 
-height: 200px; 
+left:150px;
+width: 500px; 
+height: 400px; 
 z-index: -3; } 
 .plate { 
 width: 270px; 
@@ -328,7 +329,7 @@ font-size: 30px;
 z-index: -1;
 position: absolute;
 top: 585px;
-left: 330px;
+left: 310px;
 item-position:center;
 
 }
@@ -376,7 +377,7 @@ canvas{
 {
   item-position: center;
   position: absolute;
-  top: 1250px;
+  top: 1650px;
   left:300px;
   width: 40%;
   height: 40%;
