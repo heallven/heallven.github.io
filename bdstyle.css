@@ -378,14 +378,15 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
-  width: 30%;
+  right:150px
+  width: 35%;
   height: 30%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
   display:;
   justify-content: center;
   align-items: center;
-  min-height: 30vh;
+  min-height: 40vh;
   background: transparent;}
   
 
