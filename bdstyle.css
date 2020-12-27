@@ -331,7 +331,7 @@ font-size: 20px;
 z-index: -1;
 position: absolute;
 top: 585px;
-left: 160px;
+left: 180px;
 item-position:center;
 
 }
@@ -378,15 +378,15 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
-  left:150px
-  width: 50%;
+  left:140px
+  width: 40%;
   height: 30%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
   display:;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
+  min-height: 30vh;
   background: transparent;}
   
 
