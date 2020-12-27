@@ -378,6 +378,7 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
+  left:80px;
   width: 30%;
   height: 30%;
   transform-style: preserve-3d;
