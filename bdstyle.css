@@ -378,8 +378,8 @@ canvas{
   item-position: center;
   position: relative;
   top: 350px;
-  left:140px
-  width: 40%;
+  left:120px
+  width: 30%;
   height: 30%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
