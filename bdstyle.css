@@ -378,6 +378,7 @@ canvas{
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+  min-width: 35vw;
   background: transparent;}
   
 
@@ -389,7 +390,7 @@ canvas{
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 100px;
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
