@@ -363,21 +363,19 @@ canvas{
     }
 
 
-
-
 .box
 {
   item-position: center;
   position: relative;
   top: 350px;
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
   display:;
   justify-content: center;
   align-items: center;
-  min-height: 45vh;
+  min-height: 30vh;
   background: transparent;}
   
 
@@ -405,3 +403,4 @@ canvas{
    height: 100%;
    object-fit: cover;
    
+}
