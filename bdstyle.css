@@ -160,13 +160,13 @@ margin: 0;
 .cake { 
 position: absolute;
 top:330px;
-left:150px;
-width: 500px; 
-height: 400px; 
+left:200px;
+width: 250px; 
+height: 200px; 
 z-index: -3; } 
 .plate { 
-width: 270px; 
-height: 110px; 
+width: 370px; 
+height: 210px; 
 position: absolute; 
 bottom: -10px; 
 left: -10px; 
@@ -180,8 +180,8 @@ position: absolute;
 .layer { 
 position: absolute; 
 display: block; 
-width: 250px; 
-height: 100px; 
+width: 350px; 
+height: 200px; 
 border-radius: 50%; 
 background-color: #553c13; 
 box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b, 0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b, 0 14px 0px #2f210a, 0 16px 0px #2e200a, 0 18px 0px #2d200a, 0 20px 0px #2c1f0a, 0 22px 0px #2b1f0a, 0 24px 0px #2a1e09, 0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09; } 
@@ -198,8 +198,8 @@ top: 66px;
 top: 2px; 
 left: 5px; 
 background-color: #f0e4d0; 
-width: 240px; 
-height: 90px; 
+width: 340px; 
+height: 190px; 
 border-radius: 50%; 
 } 
 .icing:before { 
@@ -216,8 +216,8 @@ z-index: 1;
 } 
 .drip { 
 display: block; 
-width: 50px; 
-height: 60px; 
+width: 150px; 
+height: 160px; 
 border-bottom-left-radius: 25px; 
 border-bottom-right-radius: 25px; 
 background-color: #f0e4d0; 
@@ -226,8 +226,8 @@ background-color: #f0e4d0;
 top: 53px; 
 left: 5px; 
 transform: skewY(15deg); 
-height: 48px; 
-width: 40px; 
+height: 148px; 
+width: 140px; 
 } 
 .drip2 { 
 top: 69px; 
@@ -237,14 +237,14 @@ transform: skewY(-15deg);
 .drip3 { 
 top: 54px; 
 left: 90px; 
-width: 80px; 
+width: 180px; 
 border-bottom-left-radius: 40px; 
 border-bottom-right-radius: 40px; 
 } 
 .candle { 
 background-color: #7B020B; 
-width: 16px; 
-height: 50px; 
+width: 116px; 
+height: 150px; 
 border-radius: 8px / 4px; top: -20px; 
 left: 50%; 
 margin-left: -8px; 
@@ -255,16 +255,16 @@ content: "";
 position: absolute; 
 top: 0; 
 left: 0; 
-width: 16px; 
-height: 8px; 
+width: 116px; 
+height: 18px; 
 border-radius: 50%; 
 background-color: #ad030f; 
 } 
 .flame { 
 position: absolute; 
 background-color: orange; 
-width: 15px; 
-height: 35px; 
+width: 115px; 
+height: 135px; 
 border-radius: 10px 10px 10px 10px / 25px 25px 10px 10px; 
 top: -34px; 
 left: 50%; 
@@ -411,7 +411,7 @@ canvas{
    top: 0;
    left: 0;
    margin: 30px;
-   width: 100%;
+   width: 110%;
    height: 100%;
    object-fit: cover;
    
