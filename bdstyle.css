@@ -379,10 +379,10 @@ canvas{
 {
   item-position: center;
   position: absolute;
-  top: 1450px;
-  left:315px;
+  top: 1250px;
+  left:300px;
   width: 40%;
-  height: 30%;
+  height: 40%;
   transform-style: preserve-3d;
   animation: infinite-spinning 30s linear infinite;
   display:;
