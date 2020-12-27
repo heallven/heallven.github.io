@@ -354,7 +354,9 @@ background: url("https://lh3.googleusercontent.com/pw/ACtC-3dN4ntXKynHHUmxGaFhdH
  -moz-background-size: cover;
   -o-background-size: cover;
 background-size: cover;
-z-index: -4;}
+z-index: -4;
+margin:5px;
+}
 
 
 
@@ -376,9 +378,9 @@ canvas{
 .box
 {
   item-position: center;
-  position: relative;
+  position: absolute;
   top: 350px;
-  left:80px;
+  left:170px;
   width: 30%;
   height: 30%;
   transform-style: preserve-3d;
